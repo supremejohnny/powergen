@@ -1,0 +1,27 @@
+"""
+a = Poweregen()
+
+# Title Slide
+a.add_title(title='AI-Based Traffic Management System', subtitle='Engineering Project Proposal')
+
+# Introduction Slide
+a.add_content_bullet(title='Introduction', content='Exploring AI solutions for urban traffic management. Aims to reduce congestion and improve flow.', double_spacing=True)
+
+# Objectives Slide
+a.add_content_bullet(title='Objectives', content='Analyze traffic patterns. Develop AI traffic model. Assess impact on urban transportation.', double_spacing=True, font_size=24)
+
+# Methodology Slide
+a.add_content_bullet(title='Methodology', content='Data collection from urban areas. AI model development using machine learning. Simulation and effectiveness analysis.', double_spacing=True)
+
+# Comparison Slide
+a.add_comparison_slide(title='Traditional vs AI Traffic Systems', left_title='Traditional Methods', left_content='Manual traffic control.\nLimited data analysis.', right_title='AI-Based System', right_content='Automated control.\nAdvanced analytics.')
+
+# Picture Slide - Assuming an image named 'traffic_analysis.jpg' is available
+a.add_picture_slide(title='AI System Simulation', image_path='traffic_analysis.jpg', layout='right lower corner', width=12, height=8)
+
+# Conclusion Slide
+a.add_content_bullet(title='Conclusion', content='Implementing AI in traffic management offers significant improvements. This project lays the groundwork for future urban transportation solutions.', double_spacing=True)
+
+# Save the presentation
+a.save('AI_Traffic_Management_Proposal')
+"""
